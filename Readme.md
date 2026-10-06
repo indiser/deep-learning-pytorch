@@ -7,7 +7,8 @@ A collection of deep learning projects built with PyTorch, progressing from fund
 | # | Project | Description | Status |
 |---|---------|-------------|--------|
 | 1 | [MNIST](./MNIST/) | Handwritten digit classification with a fully connected network | ✅ Done |
-| 2 | _Coming soon_ | | 🔜 |
+| 2 | [CIFAR-10](./Cifer/) | Image classification with a CNN (10 classes) | ✅ Done |
+| 3 | _Coming soon_ | | 🔜 |
 
 ## Setup
 
@@ -17,7 +18,7 @@ All projects share a common set of dependencies:
 pip install -r requirements.txt
 ```
 
-**Core dependencies:** `torch`, `torchvision`, `matplotlib`
+**Core dependencies:** `torch`, `torchvision`, `matplotlib`, `Pillow`
 
 ## Structure
 
@@ -25,6 +26,7 @@ pip install -r requirements.txt
 DeepLearning/
 ├── requirements.txt
 ├── MNIST/              # Project 1 — Digit classifier (MLP)
+├── Cifer/              # Project 2 — Image classifier (CNN)
 └── <future projects>/
 ```
 
